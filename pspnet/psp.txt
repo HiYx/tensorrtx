@@ -1,0 +1,654 @@
+NPP_SAVE: E:\Git_repo\tensorrtx\resnet\pytorch\lenet.py
+CD: <AnacondaPath>\Anaconda3\condabin
+Current directory: E:\Git_repo\tensorrtx\resnet\pytorch
+activate.bat OCR_ONNX_CUDA & cd "E:\Git_repo\tensorrtx\resnet\pytorch"   & python lenet.py
+Process started (PID=5944) >>>
+cuda device count:  1
+lenet out: tensor([[-0.3081,  0.0798, -1.1900,  ..., -1.6531,  0.1178,  0.2436],
+        [-0.3081,  0.0798, -1.1900,  ..., -1.6531,  0.1178,  0.2436]],
+       device='cuda:0', grad_fn=<AddmmBackward>)
+key:  conv1.weight
+value:  torch.Size([64, 3, 7, 7])
+key:  bn1.weight
+value:  torch.Size([64])
+key:  bn1.bias
+value:  torch.Size([64])
+key:  bn1.running_mean
+value:  torch.Size([64])
+key:  bn1.running_var
+value:  torch.Size([64])
+key:  bn1.num_batches_tracked
+value:  torch.Size([])
+key:  layer1.0.conv1.weight
+value:  torch.Size([64, 64, 1, 1])
+key:  layer1.0.bn1.weight
+value:  torch.Size([64])
+key:  layer1.0.bn1.bias
+value:  torch.Size([64])
+key:  layer1.0.bn1.running_mean
+value:  torch.Size([64])
+key:  layer1.0.bn1.running_var
+value:  torch.Size([64])
+key:  layer1.0.bn1.num_batches_tracked
+value:  torch.Size([])
+key:  layer1.0.conv2.weight
+value:  torch.Size([64, 64, 3, 3])
+key:  layer1.0.bn2.weight
+value:  torch.Size([64])
+key:  layer1.0.bn2.bias
+value:  torch.Size([64])
+key:  layer1.0.bn2.running_mean
+value:  torch.Size([64])
+key:  layer1.0.bn2.running_var
+value:  torch.Size([64])
+key:  layer1.0.bn2.num_batches_tracked
+value:  torch.Size([])
+key:  layer1.0.conv3.weight
+value:  torch.Size([256, 64, 1, 1])
+key:  layer1.0.bn3.weight
+value:  torch.Size([256])
+key:  layer1.0.bn3.bias
+value:  torch.Size([256])
+key:  layer1.0.bn3.running_mean
+value:  torch.Size([256])
+key:  layer1.0.bn3.running_var
+value:  torch.Size([256])
+key:  layer1.0.bn3.num_batches_tracked
+value:  torch.Size([])
+key:  layer1.0.downsample.0.weight
+value:  torch.Size([256, 64, 1, 1])
+key:  layer1.0.downsample.1.weight
+value:  torch.Size([256])
+key:  layer1.0.downsample.1.bias
+value:  torch.Size([256])
+key:  layer1.0.downsample.1.running_mean
+value:  torch.Size([256])
+key:  layer1.0.downsample.1.running_var
+value:  torch.Size([256])
+key:  layer1.0.downsample.1.num_batches_tracked
+value:  torch.Size([])
+key:  layer1.1.conv1.weight
+value:  torch.Size([64, 256, 1, 1])
+key:  layer1.1.bn1.weight
+value:  torch.Size([64])
+key:  layer1.1.bn1.bias
+value:  torch.Size([64])
+key:  layer1.1.bn1.running_mean
+value:  torch.Size([64])
+key:  layer1.1.bn1.running_var
+value:  torch.Size([64])
+key:  layer1.1.bn1.num_batches_tracked
+value:  torch.Size([])
+key:  layer1.1.conv2.weight
+value:  torch.Size([64, 64, 3, 3])
+key:  layer1.1.bn2.weight
+value:  torch.Size([64])
+key:  layer1.1.bn2.bias
+value:  torch.Size([64])
+key:  layer1.1.bn2.running_mean
+value:  torch.Size([64])
+key:  layer1.1.bn2.running_var
+value:  torch.Size([64])
+key:  layer1.1.bn2.num_batches_tracked
+value:  torch.Size([])
+key:  layer1.1.conv3.weight
+value:  torch.Size([256, 64, 1, 1])
+key:  layer1.1.bn3.weight
+value:  torch.Size([256])
+key:  layer1.1.bn3.bias
+value:  torch.Size([256])
+key:  layer1.1.bn3.running_mean
+value:  torch.Size([256])
+key:  layer1.1.bn3.running_var
+value:  torch.Size([256])
+key:  layer1.1.bn3.num_batches_tracked
+value:  torch.Size([])
+key:  layer1.2.conv1.weight
+value:  torch.Size([64, 256, 1, 1])
+key:  layer1.2.bn1.weight
+value:  torch.Size([64])
+key:  layer1.2.bn1.bias
+value:  torch.Size([64])
+key:  layer1.2.bn1.running_mean
+value:  torch.Size([64])
+key:  layer1.2.bn1.running_var
+value:  torch.Size([64])
+key:  layer1.2.bn1.num_batches_tracked
+value:  torch.Size([])
+key:  layer1.2.conv2.weight
+value:  torch.Size([64, 64, 3, 3])
+key:  layer1.2.bn2.weight
+value:  torch.Size([64])
+key:  layer1.2.bn2.bias
+value:  torch.Size([64])
+key:  layer1.2.bn2.running_mean
+value:  torch.Size([64])
+key:  layer1.2.bn2.running_var
+value:  torch.Size([64])
+key:  layer1.2.bn2.num_batches_tracked
+value:  torch.Size([])
+key:  layer1.2.conv3.weight
+value:  torch.Size([256, 64, 1, 1])
+key:  layer1.2.bn3.weight
+value:  torch.Size([256])
+key:  layer1.2.bn3.bias
+value:  torch.Size([256])
+key:  layer1.2.bn3.running_mean
+value:  torch.Size([256])
+key:  layer1.2.bn3.running_var
+value:  torch.Size([256])
+key:  layer1.2.bn3.num_batches_tracked
+value:  torch.Size([])
+key:  layer2.0.conv1.weight
+value:  torch.Size([128, 256, 1, 1])
+key:  layer2.0.bn1.weight
+value:  torch.Size([128])
+key:  layer2.0.bn1.bias
+value:  torch.Size([128])
+key:  layer2.0.bn1.running_mean
+value:  torch.Size([128])
+key:  layer2.0.bn1.running_var
+value:  torch.Size([128])
+key:  layer2.0.bn1.num_batches_tracked
+value:  torch.Size([])
+key:  layer2.0.conv2.weight
+value:  torch.Size([128, 128, 3, 3])
+key:  layer2.0.bn2.weight
+value:  torch.Size([128])
+key:  layer2.0.bn2.bias
+value:  torch.Size([128])
+key:  layer2.0.bn2.running_mean
+value:  torch.Size([128])
+key:  layer2.0.bn2.running_var
+value:  torch.Size([128])
+key:  layer2.0.bn2.num_batches_tracked
+value:  torch.Size([])
+key:  layer2.0.conv3.weight
+value:  torch.Size([512, 128, 1, 1])
+key:  layer2.0.bn3.weight
+value:  torch.Size([512])
+key:  layer2.0.bn3.bias
+value:  torch.Size([512])
+key:  layer2.0.bn3.running_mean
+value:  torch.Size([512])
+key:  layer2.0.bn3.running_var
+value:  torch.Size([512])
+key:  layer2.0.bn3.num_batches_tracked
+value:  torch.Size([])
+key:  layer2.0.downsample.0.weight
+value:  torch.Size([512, 256, 1, 1])
+key:  layer2.0.downsample.1.weight
+value:  torch.Size([512])
+key:  layer2.0.downsample.1.bias
+value:  torch.Size([512])
+key:  layer2.0.downsample.1.running_mean
+value:  torch.Size([512])
+key:  layer2.0.downsample.1.running_var
+value:  torch.Size([512])
+key:  layer2.0.downsample.1.num_batches_tracked
+value:  torch.Size([])
+key:  layer2.1.conv1.weight
+value:  torch.Size([128, 512, 1, 1])
+key:  layer2.1.bn1.weight
+value:  torch.Size([128])
+key:  layer2.1.bn1.bias
+value:  torch.Size([128])
+key:  layer2.1.bn1.running_mean
+value:  torch.Size([128])
+key:  layer2.1.bn1.running_var
+value:  torch.Size([128])
+key:  layer2.1.bn1.num_batches_tracked
+value:  torch.Size([])
+key:  layer2.1.conv2.weight
+value:  torch.Size([128, 128, 3, 3])
+key:  layer2.1.bn2.weight
+value:  torch.Size([128])
+key:  layer2.1.bn2.bias
+value:  torch.Size([128])
+key:  layer2.1.bn2.running_mean
+value:  torch.Size([128])
+key:  layer2.1.bn2.running_var
+value:  torch.Size([128])
+key:  layer2.1.bn2.num_batches_tracked
+value:  torch.Size([])
+key:  layer2.1.conv3.weight
+value:  torch.Size([512, 128, 1, 1])
+key:  layer2.1.bn3.weight
+value:  torch.Size([512])
+key:  layer2.1.bn3.bias
+value:  torch.Size([512])
+key:  layer2.1.bn3.running_mean
+value:  torch.Size([512])
+key:  layer2.1.bn3.running_var
+value:  torch.Size([512])
+key:  layer2.1.bn3.num_batches_tracked
+value:  torch.Size([])
+key:  layer2.2.conv1.weight
+value:  torch.Size([128, 512, 1, 1])
+key:  layer2.2.bn1.weight
+value:  torch.Size([128])
+key:  layer2.2.bn1.bias
+value:  torch.Size([128])
+key:  layer2.2.bn1.running_mean
+value:  torch.Size([128])
+key:  layer2.2.bn1.running_var
+value:  torch.Size([128])
+key:  layer2.2.bn1.num_batches_tracked
+value:  torch.Size([])
+key:  layer2.2.conv2.weight
+value:  torch.Size([128, 128, 3, 3])
+key:  layer2.2.bn2.weight
+value:  torch.Size([128])
+key:  layer2.2.bn2.bias
+value:  torch.Size([128])
+key:  layer2.2.bn2.running_mean
+value:  torch.Size([128])
+key:  layer2.2.bn2.running_var
+value:  torch.Size([128])
+key:  layer2.2.bn2.num_batches_tracked
+value:  torch.Size([])
+key:  layer2.2.conv3.weight
+value:  torch.Size([512, 128, 1, 1])
+key:  layer2.2.bn3.weight
+value:  torch.Size([512])
+key:  layer2.2.bn3.bias
+value:  torch.Size([512])
+key:  layer2.2.bn3.running_mean
+value:  torch.Size([512])
+key:  layer2.2.bn3.running_var
+value:  torch.Size([512])
+key:  layer2.2.bn3.num_batches_tracked
+value:  torch.Size([])
+key:  layer2.3.conv1.weight
+value:  torch.Size([128, 512, 1, 1])
+key:  layer2.3.bn1.weight
+value:  torch.Size([128])
+key:  layer2.3.bn1.bias
+value:  torch.Size([128])
+key:  layer2.3.bn1.running_mean
+value:  torch.Size([128])
+key:  layer2.3.bn1.running_var
+
+key:  layer2.3.bn1.num_batches_tracked
+value:  torch.Size([])
+key:  layer2.3.conv2.weight
+value:  torch.Size([128, 128, 3, 3])
+key:  layer2.3.bn2.weight
+value:  torch.Size([128])
+key:  layer2.3.bn2.bias
+value:  torch.Size([128])
+key:  layer2.3.bn2.running_mean
+value:  torch.Size([128])
+key:  layer2.3.bn2.running_var
+value:  torch.Size([128])
+key:  layer2.3.bn2.num_batches_tracked
+value:  torch.Size([])
+key:  layer2.3.conv3.weight
+value:  torch.Size([512, 128, 1, 1])
+key:  layer2.3.bn3.weight
+value:  torch.Size([512])
+key:  layer2.3.bn3.bias
+value:  torch.Size([512])
+key:  layer2.3.bn3.running_mean
+value:  torch.Size([512])
+key:  layer2.3.bn3.running_var
+value:  torch.Size([512])
+key:  layer2.3.bn3.num_batches_tracked
+value:  torch.Size([])
+key:  layer3.0.conv1.weight
+value:  torch.Size([256, 512, 1, 1])
+key:  layer3.0.bn1.weight
+value:  torch.Size([256])
+key:  layer3.0.bn1.bias
+value:  torch.Size([256])
+key:  layer3.0.bn1.running_mean
+value:  torch.Size([256])
+key:  layer3.0.bn1.running_var
+value:  torch.Size([256])
+key:  layer3.0.bn1.num_batches_tracked
+value:  torch.Size([])
+key:  layer3.0.conv2.weight
+value:  torch.Size([256, 256, 3, 3])
+key:  layer3.0.bn2.weight
+value:  torch.Size([256])
+key:  layer3.0.bn2.bias
+value:  torch.Size([256])
+key:  layer3.0.bn2.running_mean
+value:  torch.Size([256])
+key:  layer3.0.bn2.running_var
+value:  torch.Size([256])
+key:  layer3.0.bn2.num_batches_tracked
+value:  torch.Size([])
+key:  layer3.0.conv3.weight
+value:  torch.Size([1024, 256, 1, 1])
+key:  layer3.0.bn3.weight
+value:  torch.Size([1024])
+key:  layer3.0.bn3.bias
+value:  torch.Size([1024])
+key:  layer3.0.bn3.running_mean
+value:  torch.Size([1024])
+key:  layer3.0.bn3.running_var
+value:  torch.Size([1024])
+key:  layer3.0.bn3.num_batches_tracked
+value:  torch.Size([])
+key:  layer3.0.downsample.0.weight
+value:  torch.Size([1024, 512, 1, 1])
+key:  layer3.0.downsample.1.weight
+value:  torch.Size([1024])
+key:  layer3.0.downsample.1.bias
+value:  torch.Size([1024])
+key:  layer3.0.downsample.1.running_mean
+value:  torch.Size([1024])
+key:  layer3.0.downsample.1.running_var
+value:  torch.Size([1024])
+key:  layer3.0.downsample.1.num_batches_tracked
+value:  torch.Size([])
+key:  layer3.1.conv1.weight
+value:  torch.Size([256, 1024, 1, 1])
+key:  layer3.1.bn1.weight
+value:  torch.Size([256])
+key:  layer3.1.bn1.bias
+value:  torch.Size([256])
+key:  layer3.1.bn1.running_mean
+value:  torch.Size([256])
+key:  layer3.1.bn1.running_var
+value:  torch.Size([256])
+key:  layer3.1.bn1.num_batches_tracked
+value:  torch.Size([])
+key:  layer3.1.conv2.weight
+value:  torch.Size([256, 256, 3, 3])
+key:  layer3.1.bn2.weight
+value:  torch.Size([256])
+key:  layer3.1.bn2.bias
+value:  torch.Size([256])
+key:  layer3.1.bn2.running_mean
+value:  torch.Size([256])
+key:  layer3.1.bn2.running_var
+value:  torch.Size([256])
+key:  layer3.1.bn2.num_batches_tracked
+value:  torch.Size([])
+key:  layer3.1.conv3.weight
+value:  torch.Size([1024, 256, 1, 1])
+key:  layer3.1.bn3.weight
+value:  torch.Size([1024])
+key:  layer3.1.bn3.bias
+value:  torch.Size([1024])
+key:  layer3.1.bn3.running_mean
+value:  torch.Size([1024])
+key:  layer3.1.bn3.running_var
+value:  torch.Size([1024])
+key:  layer3.1.bn3.num_batches_tracked
+value:  torch.Size([])
+key:  layer3.2.conv1.weight
+value:  torch.Size([256, 1024, 1, 1])
+key:  layer3.2.bn1.weight
+value:  torch.Size([256])
+key:  layer3.2.bn1.bias
+value:  torch.Size([256])
+key:  layer3.2.bn1.running_mean
+value:  torch.Size([256])
+key:  layer3.2.bn1.running_var
+value:  torch.Size([256])
+key:  layer3.2.bn1.num_batches_tracked
+value:  torch.Size([])
+key:  layer3.2.conv2.weight
+value:  torch.Size([256, 256, 3, 3])
+key:  layer3.2.bn2.weight
+value:  torch.Size([256])
+key:  layer3.2.bn2.bias
+value:  torch.Size([256])
+key:  layer3.2.bn2.running_mean
+value:  torch.Size([256])
+key:  layer3.2.bn2.running_var
+value:  torch.Size([256])
+key:  layer3.2.bn2.num_batches_tracked
+value:  torch.Size([])
+key:  layer3.2.conv3.weight
+value:  torch.Size([1024, 256, 1, 1])
+key:  layer3.2.bn3.weight
+value:  torch.Size([1024])
+key:  layer3.2.bn3.bias
+value:  torch.Size([1024])
+key:  layer3.2.bn3.running_mean
+value:  torch.Size([1024])
+key:  layer3.2.bn3.running_var
+value:  torch.Size([1024])
+key:  layer3.2.bn3.num_batches_tracked
+value:  torch.Size([])
+key:  layer3.3.conv1.weight
+value:  torch.Size([256, 1024, 1, 1])
+key:  layer3.3.bn1.weight
+value:  torch.Size([256])
+key:  layer3.3.bn1.bias
+value:  torch.Size([256])
+key:  layer3.3.bn1.running_mean
+value:  torch.Size([256])
+key:  layer3.3.bn1.running_var
+value:  torch.Size([256])
+key:  layer3.3.bn1.num_batches_tracked
+value:  torch.Size([])
+key:  layer3.3.conv2.weight
+value:  torch.Size([256, 256, 3, 3])
+key:  layer3.3.bn2.weight
+value:  torch.Size([256])
+key:  layer3.3.bn2.bias
+value:  torch.Size([256])
+key:  layer3.3.bn2.running_mean
+value:  torch.Size([256])
+key:  layer3.3.bn2.running_var
+value:  torch.Size([256])
+key:  layer3.3.bn2.num_batches_tracked
+value:  torch.Size([])
+key:  layer3.3.conv3.weight
+value:  torch.Size([1024, 256, 1, 1])
+key:  layer3.3.bn3.weight
+value:  torch.Size([1024])
+key:  layer3.3.bn3.bias
+value:  torch.Size([1024])
+key:  layer3.3.bn3.running_mean
+value:  torch.Size([1024])
+key:  layer3.3.bn3.running_var
+value:  torch.Size([1024])
+key:  layer3.3.bn3.num_batches_tracked
+value:  torch.Size([])
+key:  layer3.4.conv1.weight
+value:  torch.Size([256, 1024, 1, 1])
+key:  layer3.4.bn1.weight
+value:  torch.Size([256])
+key:  layer3.4.bn1.bias
+value:  torch.Size([256])
+key:  layer3.4.bn1.running_mean
+value:  torch.Size([256])
+key:  layer3.4.bn1.running_var
+value:  torch.Size([256])
+key:  layer3.4.bn1.num_batches_tracked
+value:  torch.Size([])
+key:  layer3.4.conv2.weight
+value:  torch.Size([256, 256, 3, 3])
+key:  layer3.4.bn2.weight
+value:  torch.Size([256])
+key:  layer3.4.bn2.bias
+value:  torch.Size([256])
+key:  layer3.4.bn2.running_mean
+value:  torch.Size([256])
+key:  layer3.4.bn2.running_var
+value:  torch.Size([256])
+key:  layer3.4.bn2.num_batches_tracked
+value:  torch.Size([])
+key:  layer3.4.conv3.weight
+value:  torch.Size([1024, 256, 1, 1])
+key:  layer3.4.bn3.weight
+value:  torch.Size([1024])
+key:  layer3.4.bn3.bias
+value:  torch.Size([1024])
+key:  layer3.4.bn3.running_mean
+value:  torch.Size([1024])
+key:  layer3.4.bn3.running_var
+value:  torch.Size([1024])
+key:  layer3.4.bn3.num_batches_tracked
+value:  torch.Size([])
+key:  layer3.5.conv1.weight
+value:  torch.Size([256, 1024, 1, 1])
+key:  layer3.5.bn1.weight
+value:  torch.Size([256])
+key:  layer3.5.bn1.bias
+value:  torch.Size([256])
+key:  layer3.5.bn1.running_mean
+value:  torch.Size([256])
+key:  layer3.5.bn1.running_var
+value:  torch.Size([256])
+key:  layer3.5.bn1.num_batches_tracked
+value:  torch.Size([])
+key:  layer3.5.conv2.weight
+value:  torch.Size([256, 256, 3, 3])
+key:  layer3.5.bn2.weight
+value:  torch.Size([256])
+key:  layer3.5.bn2.bias
+value:  torch.Size([256])
+key:  layer3.5.bn2.running_mean
+value:  torch.Size([256])
+key:  layer3.5.bn2.running_var
+value:  torch.Size([256])
+key:  layer3.5.bn2.num_batches_tracked
+value:  torch.Size([])
+key:  layer3.5.conv3.weight
+value:  torch.Size([1024, 256, 1, 1])
+key:  layer3.5.bn3.weight
+value:  torch.Size([1024])
+key:  layer3.5.bn3.bias
+value:  torch.Size([1024])
+key:  layer3.5.bn3.running_mean
+value:  torch.Size([1024])
+key:  layer3.5.bn3.running_var
+value:  torch.Size([1024])
+key:  layer3.5.bn3.num_batches_tracked
+value:  torch.Size([])
+key:  layer4.0.conv1.weight
+value:  torch.Size([512, 1024, 1, 1])
+key:  layer4.0.bn1.weight
+value:  torch.Size([512])
+key:  layer4.0.bn1.bias
+value:  torch.Size([512])
+key:  layer4.0.bn1.running_mean
+value:  torch.Size([512])
+key:  layer4.0.bn1.running_var
+value:  torch.Size([512])
+key:  layer4.0.bn1.num_batches_tracked
+value:  torch.Size([])
+key:  layer4.0.conv2.weight
+value:  torch.Size([512, 512, 3, 3])
+key:  layer4.0.bn2.weight
+value:  torch.Size([512])
+key:  layer4.0.bn2.bias
+value:  torch.Size([512])
+key:  layer4.0.bn2.running_mean
+value:  torch.Size([512])
+key:  layer4.0.bn2.running_var
+value:  torch.Size([512])
+key:  layer4.0.bn2.num_batches_tracked
+value:  torch.Size([])
+key:  layer4.0.conv3.weight
+value:  torch.Size([2048, 512, 1, 1])
+key:  layer4.0.bn3.weight
+value:  torch.Size([2048])
+key:  layer4.0.bn3.bias
+value:  torch.Size([2048])
+key:  layer4.0.bn3.running_mean
+value:  torch.Size([2048])
+key:  layer4.0.bn3.running_var
+value:  torch.Size([2048])
+key:  layer4.0.bn3.num_batches_tracked
+value:  torch.Size([])
+key:  layer4.0.downsample.0.weight
+value:  torch.Size([2048, 1024, 1, 1])
+key:  layer4.0.downsample.1.weight
+value:  torch.Size([2048])
+key:  layer4.0.downsample.1.bias
+value:  torch.Size([2048])
+key:  layer4.0.downsample.1.running_mean
+value:  torch.Size([2048])
+key:  layer4.0.downsample.1.running_var
+value:  torch.Size([2048])
+key:  layer4.0.downsample.1.num_batches_tracked
+value:  torch.Size([])
+key:  layer4.1.conv1.weight
+value:  torch.Size([512, 2048, 1, 1])
+key:  layer4.1.bn1.weight
+value:  torch.Size([512])
+key:  layer4.1.bn1.bias
+value:  torch.Size([512])
+key:  layer4.1.bn1.running_mean
+value:  torch.Size([512])
+key:  layer4.1.bn1.running_var
+value:  torch.Size([512])
+key:  layer4.1.bn1.num_batches_tracked
+value:  torch.Size([])
+key:  layer4.1.conv2.weight
+value:  torch.Size([512, 512, 3, 3])
+key:  layer4.1.bn2.weight
+value:  torch.Size([512])
+key:  layer4.1.bn2.bias
+value:  torch.Size([512])
+key:  layer4.1.bn2.running_mean
+value:  torch.Size([512])
+key:  layer4.1.bn2.running_var
+value:  torch.Size([512])
+key:  layer4.1.bn2.num_batches_tracked
+value:  torch.Size([])
+key:  layer4.1.conv3.weight
+value:  torch.Size([2048, 512, 1, 1])
+key:  layer4.1.bn3.weight
+value:  torch.Size([2048])
+key:  layer4.1.bn3.bias
+value:  torch.Size([2048])
+key:  layer4.1.bn3.running_mean
+value:  torch.Size([2048])
+key:  layer4.1.bn3.running_var
+value:  torch.Size([2048])
+key:  layer4.1.bn3.num_batches_tracked
+value:  torch.Size([])
+key:  layer4.2.conv1.weight
+value:  torch.Size([512, 2048, 1, 1])
+key:  layer4.2.bn1.weight
+value:  torch.Size([512])
+key:  layer4.2.bn1.bias
+value:  torch.Size([512])
+key:  layer4.2.bn1.running_mean
+value:  torch.Size([512])
+key:  layer4.2.bn1.running_var
+value:  torch.Size([512])
+key:  layer4.2.bn1.num_batches_tracked
+value:  torch.Size([])
+key:  layer4.2.conv2.weight
+value:  torch.Size([512, 512, 3, 3])
+key:  layer4.2.bn2.weight
+value:  torch.Size([512])
+key:  layer4.2.bn2.bias
+value:  torch.Size([512])
+key:  layer4.2.bn2.running_mean
+value:  torch.Size([512])
+key:  layer4.2.bn2.running_var
+value:  torch.Size([512])
+key:  layer4.2.bn2.num_batches_tracked
+value:  torch.Size([])
+key:  layer4.2.conv3.weight
+value:  torch.Size([2048, 512, 1, 1])
+key:  layer4.2.bn3.weight
+value:  torch.Size([2048])
+key:  layer4.2.bn3.bias
+value:  torch.Size([2048])
+key:  layer4.2.bn3.running_mean
+value:  torch.Size([2048])
+key:  layer4.2.bn3.running_var
+value:  torch.Size([2048])
+key:  layer4.2.bn3.num_batches_tracked
+value:  torch.Size([])
+
+
+
+key:  fc.weight
+value:  torch.Size([1000, 2048])
+key:  fc.bias
+value:  torch.Size([1000])
+<<< Process finished (PID=5944). (Exit code 0)
+================ READY ================
